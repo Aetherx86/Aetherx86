@@ -234,7 +234,7 @@ In addition to academic research, I accept high-leverage technical consulting en
 | **Binary De-virtualization & Reverse Engineering** | Control-flow graph recovery, SMT-driven semantic flattening, and LLVM IR lifting | `VMP_DEVIRT`, automated symbolic engines |
 | **Verifiable zkVM & IVC Audits** | Constraint verification, lookup argument analysis, and folding circuit soundness checks | `zk-hyperVM`, Nova / SuperNova harnesses |
 | **Post-Quantum Cryptography** | Lattice-based RLWE (BFV/CKKS) scheme evaluation and secure enclave design | `medcrypto`, verified Rust cryptosystems |
-| **Database & CI/CD Optimization** | Destructive DDL lock-hazard preflight and matrix pruner deployment | `sentinel-kit` ($39–$99/mo or $499 audit) |
+| **Database & CI/CD Optimization** | Destructive DDL lock-hazard preflight and matrix pruner deployment | `sentinel-kit` ($3.90–$9.90/mo or $49.90 audit) |
 
 ### Engagement Inquiries
 To request a private scoping call, advisory retainer, or fixed-rate quote for an audit:
