@@ -44,7 +44,6 @@ My research operates at the nexus of **hardware-assisted systems virtualization*
 - **Incrementally Verifiable Computation (IVC) & Folding Schemes**: Lookup-accelerated folding architectures (Nova, SuperNova, and HyperNova paradigms) applied to hypervisor transitions, zkVM verification harnesses, and trustless state transitions.
 - **Binary De-virtualization & Program Synthesis**: Abstract interpretation, SMT-driven symbolic execution (Z3), control flow graph (CFG) normalization, and intermediate representation (LLVM IR) lifting targeting multi-layered commercial virtualization-based obfuscators.
 - **Post-Quantum Cryptography & High-Assurance Runtimes**: Lattice-based Fully Homomorphic Encryption (BFV/CKKS) for privacy-preserving computation, zero-retention compliance engines, and deterministic monorepo verification pipelines.
-- **Deterministic Edge & Mobile Agent Architectures**: Mathematical pacing models for personal productivity, discrete goal decomposition algorithms, and finite-state persona synthesis engines (`mobile-butler`).
 
 ---
 
@@ -154,11 +153,34 @@ A transit app for all of Korea in Kotlin Multiplatform, for Android, iOS and the
 
 ### 15. REA ([rea](https://github.com/Aetherx86/rea) &bull; [Workbench](https://aetherx86.github.io/rea/))
 
-Multi-engine reverse-engineering platform (`v7.0.1`) combining a 16-crate native Rust workspace (Mach-O, ELF, PE, DEX, WebAssembly, and archive parsers; x86/x86_64/ARM/AArch64/sBPF decoders; CFG and dataflow recovery; clean-room Pseudo-C decompiler; hash-chained evidence ledger; egui desktop workbench) with a 302-tool Model Context Protocol (MCP) server.
+Multi-engine reverse-engineering platform (`v7.1.0`, now with RISC-V decoding and offline evidence-ledger verification) combining a 16-crate native Rust workspace (Mach-O, ELF, PE, DEX, WebAssembly, and archive parsers; x86/x86_64/ARM/AArch64/sBPF decoders; CFG and dataflow recovery; clean-room Pseudo-C decompiler; hash-chained evidence ledger; egui desktop workbench) with a 302-tool Model Context Protocol (MCP) server.
 
 ### 16. Assay ([Assay](https://github.com/Aetherx86/Assay) &bull; [Try it](https://aetherx86.github.io/assay/))
 
 Cross-checks what Korean listed companies report in their financial statements against independent audit reports, OpenDART XBRL, US SEC 20-F filings, credit ratings, and public registries across 10 verification layers, evaluated under a pre-registered 39-company-year validation protocol.
+
+
+### 17. November 2026 releases
+
+Every project below shipped a new minor release on 2026-11-20/21 with new capabilities, hostile-input hardening and real tests, and passes CI.
+
+| Project | Version | What it is |
+| :--- | :--- | :--- |
+| [Alexandrite](https://github.com/Aetherx86/Alexandrite) ([live](https://aetherx86.github.io/alexandrite/)) | 0.2.0 | Minimal-DFA regex compiler and lexer in Zig and WebAssembly, with language-equivalence checking |
+| [Celestine](https://github.com/Aetherx86/Celestine) ([live](https://aetherx86.github.io/celestine/)) | 0.2.0 | Polyphonic synthesizer and FFT analyzer in Zig and WebAssembly |
+| [Spinel](https://github.com/Aetherx86/Spinel) ([live](https://aetherx86.github.io/spinel/)) | 0.2.0 | ELF, PE and Mach-O section parser, entropy maps, packer detection and binary diff |
+| [Zircon](https://github.com/Aetherx86/Zircon) ([live](https://aetherx86.github.io/zircon/)) | 0.2.0 | Reversible RV32IM emulator with a pipeline hazard model, assembler and disassembler |
+| [Halite](https://github.com/Aetherx86/Halite) ([live](https://aetherx86.github.io/halite/)) | 0.2.0 | Deterministic fixed-point Lattice Boltzmann fluid solver |
+| [Corundum](https://github.com/Aetherx86/Corundum) | 0.2.0 | eBPF assembler, reference VM and path-sensitive verifier |
+| [Tanzanite](https://github.com/Aetherx86/Tanzanite) | 0.2.0 | CDCL SAT solver with DRUP proofs and its own proof checker |
+| [Pyrope](https://github.com/Aetherx86/Pyrope) | 0.2.0 | Constant-time WireGuard (Noise_IKpsk2) engine |
+| [Obsidian](https://github.com/Aetherx86/Obsidian) | 0.2.0 | Optimizing x86_64/AArch64 JIT with a register allocator and differential fuzzer |
+| [Beryl](https://github.com/Aetherx86/Beryl), [Chrysoberyl](https://github.com/Aetherx86/Chrysoberyl), [Kyanite](https://github.com/Aetherx86/Kyanite), [Stibnite](https://github.com/Aetherx86/Stibnite), [Realgar](https://github.com/Aetherx86/Realgar), [Zoisite](https://github.com/Aetherx86/Zoisite) | 0.2.0 | CoW B-tree storage, columnar SIMD queries, snapshot fuzzing, syscall policy, x86_64 kernel, cycle-counter benchmarking |
+| [Pyx](https://github.com/Aetherx86/Pyx), [Gabbro](https://github.com/Aetherx86/Gabbro), [Clino](https://github.com/Aetherx86/Clino), [Sard](https://github.com/Aetherx86/Sard), [Scapolite](https://github.com/Aetherx86/Scapolite) | 0.2.0 | Go: PostgreSQL proxy gatekeeper, Raft simulator, unsafe/CGo analyzer (SARIF), JA4 fingerprinting, EVM mempool scheduler |
+| [Pyrite](https://github.com/Aetherx86/Pyrite), [Boron](https://github.com/Aetherx86/Boron), [Rhizome](https://github.com/Aetherx86/Rhizome), [Silica](https://github.com/Aetherx86/Silica), [Argon](https://github.com/Aetherx86/Argon) | 0.2.x | Kotlin: VM with JIT to JVM bytecode, KSP bit packing, BitTorrent/DHT, Life-like rules and Hashlife, ARM7/ARM9 emulator |
+| [Ferrite](https://github.com/Aetherx86/Ferrite) | 0.3.0 | Transit trips that trade time for transfers, hour-aware transfer waits |
+| [zk-hyperVM](https://github.com/Aetherx86/zk-hyperVM), [Zeolite](https://github.com/Aetherx86/Zeolite), [medcrypto](https://github.com/Aetherx86/medcrypto), [VMP_DEVIRT](https://github.com/Aetherx86/VMP_DEVIRT), [ctxflow](https://github.com/Aetherx86/ctxflow), [aether-license](https://github.com/Aetherx86/aether-license) | 0.4.0, 0.2.0, 0.5.0, 1.3.0, 0.4.1, 0.2.0 | Rust: IVC folding checks, Raft leadership transfer, FHE analytics, MBA/opaque-predicate proofs, context kernel, Ed25519 licensing |
+| [Assay](https://github.com/Aetherx86/Assay), [sentinel-kit](https://github.com/Aetherx86/sentinel-kit), [ceasefire](https://github.com/Aetherx86/ceasefire), [fakecut](https://github.com/Aetherx86/fakecut), [Educhain](https://github.com/Aetherx86/Educhain) | 0.2.0, 1.2.0, 0.2.0, 0.2.0, 1.1.0 | Filing cross-checks with Benford screening, compliance tooling, capability sandboxing, timeline editor with FCPXML/EDL export, on-chain peer review |
 
 ---
 
