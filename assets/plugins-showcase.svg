@@ -14,7 +14,7 @@
 
   <!-- Header -->
   <text x="26" y="34" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="700">LATEST FLAGSHIP SHIPMENTS · NOVEMBER 2026</text>
-  <text x="1174" y="34" text-anchor="end" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">aetherx86.github.io · Labs &amp; Plugins</text>
+  <text x="1174" y="34" text-anchor="end" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">omakasekim.github.io · Labs &amp; Plugins</text>
 
   <!-- Featured Left Card: context-budget-orchestrator -->
   <rect x="24" y="50" width="388" height="156" rx="12" fill="url(#heroCard)" stroke="#06B6D4" stroke-opacity="0.65" stroke-width="1.5"/>
