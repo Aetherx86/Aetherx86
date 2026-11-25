@@ -64,12 +64,12 @@
   <g>
     <rect x="820" y="64" width="166" height="82" rx="12" fill="#0F172A" fill-opacity="0.9" stroke="#1E293B"/>
     <text x="838" y="92" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">PUBLIC REPOS</text>
-    <text x="838" y="128" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="30" font-weight="800">63</text>
+    <text x="838" y="128" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="30" font-weight="800">64</text>
     <text x="884" y="126" fill="#10B981" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">open-source</text>
 
     <rect x="1002" y="64" width="166" height="82" rx="12" fill="#0F172A" fill-opacity="0.9" stroke="#1E293B"/>
     <text x="1020" y="92" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">LIVE WORKBENCHES</text>
-    <text x="1020" y="128" fill="#22D3EE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="30" font-weight="800">13+</text>
+    <text x="1020" y="128" fill="#22D3EE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="30" font-weight="800">14+</text>
     <text x="1078" y="126" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">browser UI</text>
 
     <rect x="820" y="158" width="348" height="66" rx="12" fill="#0F172A" fill-opacity="0.9" stroke="#1E293B"/>

@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://aetherx86.github.io"><img src="https://img.shields.io/badge/Official_Portal-aetherx86.github.io-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Portal" /></a>
-  <a href="https://github.com/Aetherx86"><img src="https://img.shields.io/badge/GitHub-63_Public_Repos-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/Aetherx86"><img src="https://img.shields.io/badge/GitHub-64_Public_Repos-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://gitlab.com/jk9576"><img src="https://img.shields.io/badge/GitLab-Research_Mirror-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" /></a>
   <a href="mailto:jk9576@hanyang.ac.kr"><img src="https://img.shields.io/badge/Email-jk9576%40hanyang.ac.kr-3B82F6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -64,7 +64,7 @@ Quantitative breakdown of active open-source systems, experimental compilers, an
 
 | Metric | Empirical Measurement | Architectural Significance |
 | :--- | :--- | :--- |
-| **Active Systems & Repositories** | 63 Public Open-Source Systems | 13+ Live Browser Workbenches &bull; Systems, Crypto, Compilers & Agentic AI |
+| **Active Systems & Repositories** | 64 Public Open-Source Systems | 14+ Live Browser Workbenches &bull; Systems, Crypto, Compilers & Agentic AI |
 | **Verified Net Footprint** | ~110.2 MB Executable Source | Zero vendor bloat; net algorithm implementations and test vectors |
 | **Target Architectures** | x86_64, RISC-V, ARM64 | Bare-metal hypervisors, native instruction engines, WASI runtimes |
 | **Verification Rigor** | 100% Deterministic CI/CD | Zero-warning policy (`-D warnings`), automated Gitleaks, memory safety |
@@ -96,6 +96,7 @@ Quantitative breakdown of active open-source systems, experimental compilers, an
 ### 2. VMP_DEVIRT ([VMP_DEVIRT](https://github.com/Aetherx86/VMP_DEVIRT))
 
 Also home to `wasm-superopt`, a WebAssembly deobfuscator built on simplifications that are proofs, and `absint`, an abstract interpretation analyzer for memory safety and data races.
+
 *Automated Symbolic De-virtualization & Intermediate Representation Lifting Engine*
 - Research framework targeting layered virtualization-based commercial obfuscators (VMProtect).
 - Employs dynamic trace recording, taint analysis, dead-code elimination, and symbolic simplification via Z3 SMT solver.
@@ -104,6 +105,7 @@ Also home to `wasm-superopt`, a WebAssembly deobfuscator built on simplification
 ### 3. medcrypto ([medcrypto](https://github.com/Aetherx86/medcrypto))
 
 Its core cryptography is also one WebAssembly Component with no imports, running unchanged from Python, TypeScript and Go.
+
 *Lattice-Based Post-Quantum Medical Data Cryptography & FHE Suite*
 - Implements ring learning with errors (RLWE) Fully Homomorphic Encryption schemes (BFV and CKKS) for blind diagnostic evaluation.
 - Features multi-party secret sharing, verifiable zero-knowledge clinical inference, and post-quantum digital signatures.
