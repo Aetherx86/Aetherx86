@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://omakasekim.github.io"><img src="https://img.shields.io/badge/Official_Portal-omakasekim.github.io-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Portal" /></a>
-  <a href="https://github.com/omakasekim"><img src="https://img.shields.io/badge/GitHub-64_Public_Repos-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/omakasekim"><img src="https://img.shields.io/badge/GitHub-63_Public_Repos-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://gitlab.com/jk9576"><img src="https://img.shields.io/badge/GitLab-Research_Mirror-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" /></a>
   <a href="mailto:jk9576@hanyang.ac.kr"><img src="https://img.shields.io/badge/Email-jk9576%40hanyang.ac.kr-3B82F6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -64,7 +64,7 @@ Quantitative breakdown of active open-source systems, experimental compilers, an
 
 | Metric | Empirical Measurement | Architectural Significance |
 | :--- | :--- | :--- |
-| **Active Systems & Repositories** | 64 Public Open-Source Systems | 14+ Live Browser Workbenches &bull; Systems, Crypto, Compilers & Agentic AI |
+| **Active Systems & Repositories** | 63 Public Open-Source Systems | 14+ Live Browser Workbenches &bull; Systems, Crypto, Compilers & Agentic AI |
 | **Verified Net Footprint** | ~110.2 MB Executable Source | Zero vendor bloat; net algorithm implementations and test vectors |
 | **Target Architectures** | x86_64, RISC-V, ARM64 | Bare-metal hypervisors, native instruction engines, WASI runtimes |
 | **Verification Rigor** | 100% Deterministic CI/CD | Zero-warning policy (`-D warnings`), automated Gitleaks, memory safety |
