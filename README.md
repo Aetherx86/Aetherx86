@@ -1,15 +1,32 @@
-# Jeong Hoon (Jeffrey) Kim
+<p align="center">
+  <a href="https://aetherx86.github.io">
+    <img src="assets/hero-banner.svg" alt="Jeong Hoon (Jeffrey) Kim — Systems Security, Applied Cryptography & AI Orchestration" width="100%" />
+  </a>
+</p>
 
-**Researcher in Systems Security & Applied Cryptography**  
-Department of Computer Science & Systems, Hanyang University &bull; Seoul, South Korea  
-*Laboratory for High-Assurance Systems & Foundations of Verifiable Computation*  
+<p align="center">
+  <a href="https://aetherx86.github.io"><img src="https://img.shields.io/badge/Official_Portal-aetherx86.github.io-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Portal" /></a>
+  <a href="https://github.com/Aetherx86"><img src="https://img.shields.io/badge/GitHub-63_Public_Repos-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://gitlab.com/jk9576"><img src="https://img.shields.io/badge/GitLab-Research_Mirror-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" /></a>
+  <a href="mailto:jk9576@hanyang.ac.kr"><img src="https://img.shields.io/badge/Email-jk9576%40hanyang.ac.kr-3B82F6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-[Official Portal](https://aetherx86.github.io) &bull; [GitHub Profile](https://github.com/Aetherx86) &bull; [GitLab Research Mirror](https://gitlab.com/jk9576) &bull; [Institutional Inquiries](mailto:jk9576@hanyang.ac.kr)
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=black" alt="Zig" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="WebAssembly" />
+  <img src="https://img.shields.io/badge/x86__64_%2F_RISC--V-1E293B?style=flat-square&logo=riscv&logoColor=white" alt="x86_64 / RISC-V" />
+</p>
 
 ---
 
 > **Support Independent Research**  
-> I am an independent researcher engineering open-source systems security tools, applied cryptographic primitives, microhypervisors, and verifiable computing primitives. All research across these repositories is self-directed and personally funded. Any monetary support, institutional research grants, or individual sponsorship to help fund server compute, test hardware, publication costs, and ongoing development is deeply appreciated.  
+> I am an independent researcher engineering open-source systems security tools, applied cryptographic primitives, microhypervisors, verifiable computing primitives, and agentic developer infrastructure. All research across these repositories is self-directed and personally funded. Any monetary support, institutional research grants, or individual sponsorship to help fund server compute, test hardware, publication costs, and ongoing development is deeply appreciated.  
 > 
 > [![GitHub Sponsors](https://img.shields.io/badge/Sponsor_on_GitHub-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Aetherx86)
 > [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/Aetherx86)
@@ -18,15 +35,9 @@ Department of Computer Science & Systems, Hanyang University &bull; Seoul, South
 
 ---
 
-```
-             [ Formal Verifiability & Mathematical Rigor ]
-                                  |
-    +-----------------------------+-----------------------------+
-    |                             |                             |
-[ Hardware Virtualization ]  [ Verifiable Proofs ]  [ Program De-virtualization ]
-    - Microhypervisors           - IVC & Folding        - SMT Symbolic Execution
-    - EPT / VMCS Proofs          - SP1 zkVM Harnesses   - LLVM IR Semantic Recovery
-```
+<p align="center">
+  <img src="assets/research-architecture.svg" alt="Research Architecture — Hardware Virtualization, Verifiable Proofs & PQC, De-virtualization & Compilers, Agentic Systems & DevTools" width="100%" />
+</p>
 
 ---
 
@@ -53,7 +64,7 @@ Quantitative breakdown of active open-source systems, experimental compilers, an
 
 | Metric | Empirical Measurement | Architectural Significance |
 | :--- | :--- | :--- |
-| **Active Systems & Repositories** | 35 Research Projects | 29 Public Open-Source Systems &bull; 6 Laboratory Pipelines |
+| **Active Systems & Repositories** | 63 Public Open-Source Systems | 13+ Live Browser Workbenches &bull; Systems, Crypto, Compilers & Agentic AI |
 | **Verified Net Footprint** | ~110.2 MB Executable Source | Zero vendor bloat; net algorithm implementations and test vectors |
 | **Target Architectures** | x86_64, RISC-V, ARM64 | Bare-metal hypervisors, native instruction engines, WASI runtimes |
 | **Verification Rigor** | 100% Deterministic CI/CD | Zero-warning policy (`-D warnings`), automated Gitleaks, memory safety |
@@ -184,8 +195,21 @@ Every project below shipped a new minor release on 2026-11-20/21 with new capabi
 
 ### 18. AI Orchestration & Visual Developer Plugins (2026-11-25)
 
-- **[context-budget-orchestrator](https://github.com/Aetherx86/context-budget-orchestrator)** (`v3.4.0`): Zero-dependency, cross-platform AI orchestrator skill for Claude Code, Gemini CLI, Codex CLI, Copilot CLI, OpenCode, OpenClaw, DeepSeek Harness, and Grok CLI — featuring typed graph memory, 68% context-budget gates, AST-planned parallel subagent delegation, a 30-CWE/OpenAPI security audit engine, ground-truth git/diff verification, an interactive checkbox feature selector, and 4-language docs.
-- **Visual Developer Plugins ([Labs & Plugins](https://aetherx86.github.io))**: [list-radar](https://github.com/Aetherx86/list-radar) ([live](https://aetherx86.github.io/list-radar/)), [agent-hud](https://github.com/Aetherx86/agent-hud) ([live](https://aetherx86.github.io/agent-hud/)), [learn-graph](https://github.com/Aetherx86/learn-graph) ([live](https://aetherx86.github.io/learn-graph/)), [sysdesign-lab](https://github.com/Aetherx86/sysdesign-lab) ([live](https://aetherx86.github.io/sysdesign-lab/)), [code-pulse-ext](https://github.com/Aetherx86/code-pulse-ext) ([live](https://aetherx86.github.io/code-pulse-ext/)), and [cli-workbench](https://github.com/Aetherx86/cli-workbench) ([live](https://aetherx86.github.io/cli-workbench/)).
+<p align="center">
+  <a href="https://aetherx86.github.io">
+    <img src="assets/plugins-showcase.svg" alt="context-budget-orchestrator v3.4.0 and 6 Visual Developer Plugins" width="100%" />
+  </a>
+</p>
+
+| Project | Version / Type | Live Demo | Highlights |
+| :--- | :--- | :--- | :--- |
+| **[context-budget-orchestrator](https://github.com/Aetherx86/context-budget-orchestrator)** | `v3.4.0` · Universal AI Skill | CLI / 8+ Harnesses | Zero-dep Python stdlib orchestrator for Claude, Gemini, Codex, Copilot, OpenCode, OpenClaw, DeepSeek & Grok: typed graph memory, 68% budget gates, AST parallel waves, 30-CWE/OpenAPI security audit, ground-truth git verifier, interactive checkbox selector, EN/KO/ZH/ES docs |
+| **[list-radar](https://github.com/Aetherx86/list-radar)** | MV3 Extension + Web | [Launch Live](https://aetherx86.github.io/list-radar/) | Interactive awesome-list & GitHub ecosystem visual explorer with graph/table lenses |
+| **[agent-hud](https://github.com/Aetherx86/agent-hud)** | Agent Skill + Web | [Launch Live](https://aetherx86.github.io/agent-hud/) | Real-time multi-agent telemetry, token-burn flamegraphs, and session HUD |
+| **[learn-graph](https://github.com/Aetherx86/learn-graph)** | MV3 Extension + Web | [Launch Live](https://aetherx86.github.io/learn-graph/) | Interactive prerequisite DAG & engineering roadmap graph visualizer |
+| **[sysdesign-lab](https://github.com/Aetherx86/sysdesign-lab)** | Agent Skill + Web | [Launch Live](https://aetherx86.github.io/sysdesign-lab/) | Visual distributed-systems architecture & latency/throughput simulator |
+| **[code-pulse-ext](https://github.com/Aetherx86/code-pulse-ext)** | MV3 Extension + Web | [Launch Live](https://aetherx86.github.io/code-pulse-ext/) | Repository health, churn hotspots, and complexity flamegraph overlay |
+| **[cli-workbench](https://github.com/Aetherx86/cli-workbench)** | CLI Companion + Web | [Launch Live](https://aetherx86.github.io/cli-workbench/) | Visual CLI pipeline composer, flag inspector, and live shell simulator |
 
 ---
 
@@ -243,7 +267,7 @@ For protocol contributors and researchers who prefer direct on-chain settlement:
 
 | Asset / Network | Deposit Reference | Supported Assets |
 | :--- | :--- | :--- |
-| **Ethereum | *Available upon inquiry*| ETH, USDC, USDT, DAI |
+| **Ethereum** | *Available upon inquiry* | ETH, USDC, USDT, DAI |
 | **Solana** | *Available upon inquiry* | SOL, USDC |
 | **Bitcoin** | *Available upon inquiry* | BTC (Native SegWit) |
 

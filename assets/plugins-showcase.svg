@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Latest Releases — context-budget-orchestrator v3.4.0 and 6 Visual Developer Plugins">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="heroCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C1E2E"/>
+      <stop offset="100%" stop-color="#111C35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="230" rx="14" fill="url(#bg3)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="26" y="34" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="700">LATEST FLAGSHIP SHIPMENTS · NOVEMBER 2026</text>
+  <text x="1174" y="34" text-anchor="end" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">aetherx86.github.io · Labs &amp; Plugins</text>
+
+  <!-- Featured Left Card: context-budget-orchestrator -->
+  <rect x="24" y="50" width="388" height="156" rx="12" fill="url(#heroCard)" stroke="#06B6D4" stroke-opacity="0.65" stroke-width="1.5"/>
+  <rect x="40" y="64" width="66" height="22" rx="6" fill="#06B6D4" fill-opacity="0.2" stroke="#06B6D4" stroke-opacity="0.6"/>
+  <text x="73" y="79" text-anchor="middle" fill="#22D3EE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">v3.4.0</text>
+  <text x="116" y="79" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">ZERO-DEP PYTHON STDLIB</text>
+  <text x="40" y="109" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="800">context-budget-orchestrator</text>
+  <text x="40" y="132" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5">Universal AI Orchestrator Skill for Claude, Gemini, Codex,</text>
+  <text x="40" y="149" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5">Copilot, OpenCode, OpenClaw, DeepSeek &amp; Grok CLIs.</text>
+  <text x="40" y="177" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">Graph Memory · 68% Gates · 30-CWE Audit · Truth Verifier</text>
+  <text x="40" y="194" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">Interactive Checkbox TUI · EN / KO / ZH / ES Docs</text>
+
+  <!-- Right 2x3 Grid: 6 Visual Developer Plugins -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif">
+    <!-- Row 1 -->
+    <rect x="428" y="50" width="240" height="72" rx="10" fill="#0B1324" stroke="#1E293B"/>
+    <circle cx="446" cy="72" r="4" fill="#06B6D4"/>
+    <text x="458" y="76" fill="#F8FAFC" font-size="14" font-weight="700">list-radar</text>
+    <text x="444" y="96" fill="#94A3B8" font-size="11.5">Awesome-List Visual Explorer</text>
+    <text x="444" y="112" fill="#22D3EE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">MV3 Ext + Live Pages Demo</text>
+
+    <rect x="682" y="50" width="240" height="72" rx="10" fill="#0B1324" stroke="#1E293B"/>
+    <circle cx="700" cy="72" r="4" fill="#10B981"/>
+    <text x="712" y="76" fill="#F8FAFC" font-size="14" font-weight="700">agent-hud</text>
+    <text x="698" y="96" fill="#94A3B8" font-size="11.5">Live Multi-Agent Telemetry HUD</text>
+    <text x="698" y="112" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">Skill + Live Pages Demo</text>
+
+    <rect x="936" y="50" width="240" height="72" rx="10" fill="#0B1324" stroke="#1E293B"/>
+    <circle cx="954" cy="72" r="4" fill="#8B5CF6"/>
+    <text x="966" y="76" fill="#F8FAFC" font-size="14" font-weight="700">learn-graph</text>
+    <text x="952" y="96" fill="#94A3B8" font-size="11.5">Interactive Skill &amp; Roadmap DAG</text>
+    <text x="952" y="112" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">MV3 Ext + Live Pages Demo</text>
+
+    <!-- Row 2 -->
+    <rect x="428" y="134" width="240" height="72" rx="10" fill="#0B1324" stroke="#1E293B"/>
+    <circle cx="446" cy="156" r="4" fill="#F59E0B"/>
+    <text x="458" y="160" fill="#F8FAFC" font-size="14" font-weight="700">sysdesign-lab</text>
+    <text x="444" y="180" fill="#94A3B8" font-size="11.5">Distributed Systems Simulator</text>
+    <text x="444" y="196" fill="#FBBF24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">Skill + Live Pages Demo</text>
+
+    <rect x="682" y="134" width="240" height="72" rx="10" fill="#0B1324" stroke="#1E293B"/>
+    <circle cx="700" cy="156" r="4" fill="#F43F5E"/>
+    <text x="712" y="160" fill="#F8FAFC" font-size="14" font-weight="700">code-pulse-ext</text>
+    <text x="698" y="180" fill="#94A3B8" font-size="11.5">Repo Health &amp; Flamegraph Lens</text>
+    <text x="698" y="196" fill="#FB7185" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">MV3 Ext + Live Pages Demo</text>
+
+    <rect x="936" y="134" width="240" height="72" rx="10" fill="#0B1324" stroke="#1E293B"/>
+    <circle cx="954" cy="156" r="4" fill="#3B82F6"/>
+    <text x="966" y="160" fill="#F8FAFC" font-size="14" font-weight="700">cli-workbench</text>
+    <text x="952" y="180" fill="#94A3B8" font-size="11.5">Visual CLI Pipeline Builder</text>
+    <text x="952" y="196" fill="#60A5FA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">CLI + Live Pages Demo</text>
+  </g>
+</svg>
